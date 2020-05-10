@@ -111,10 +111,10 @@ For example, an array can be suited to storing the individual items on a shoppin
 
 An expression evaluates into (results in) a single value. Broadly speaking there are two types of expressions. 
 
+# Dicision & Loops :
 
+## Dexision Making :
 
-
-
-
-
-
+> `if(condition){`
+> `some code;`
+> `}`
