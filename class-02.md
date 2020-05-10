@@ -2,23 +2,23 @@
 
 ## headings:
 
-* **<h1>** is used for main headings
+- **<h1>** is used for main headings
 
-* **<h2>** is used for subheadings
+- **<h2>** is used for subheadings
 
-* **<h3>** element is used, and so on
+- **<h3>** element is used, and so on
 
 ## Paragraphs:
 
-* **<p>** To create a paragraph, surround the words that make up the paragraph with an opening <p> tag and closing </p> tag.
+- **<p>** To create a paragraph, surround the words that make up the paragraph with an opening <p> tag and closing </p> tag.
 
-* **<b>** By enclosing words in the tags <b> and </b> we can make characters appear bold.
+- **<b>** By enclosing words in the tags <b> and </b> we can make characters appear bold.
 
-* **<i>** By enclosing words in the tags <i> and </i> we can make characters appear italic
+- **<i>** By enclosing words in the tags <i> and </i> we can make characters appear italic
 
 ## suPerscriPT & suBscriPT:
 
-* **<sub>** The <sup> element is used to contain characters that should be superscript such as the suffixes of dates or mathematical concepts like raising a number to a power such as 22. 
+- **`<sub>`** The `<sup>` element is used to contain characters that should be superscript such as the suffixes of dates or mathematical concepts like raising a number to a power such as 22. 
 
 ## White Space 
 
@@ -27,37 +27,37 @@ When the browser comes across two or more spaces next to each other, it only dis
 
 ## sTrong & emPHasis:
 
-* **<Strong>** The use of the <strong> element indicates that its content has strong importance. For example, the words contained in this element might be said with strong emphasis.
+- **`<Strong>`** The use of the `<strong>` element indicates that its content has strong importance. For example, the words contained in this element might be said with strong emphasis.
 
-* **<em>** The <em> element indicates emphasis that subtly changes the meaning of a sentence.
+- **`<em>`** The `<em>` element indicates emphasis that subtly changes the meaning of a sentence.
 
 ## aBBreViaTions & acronyms:
 
-* **<abbr>** If you use an abbreviation or an acronym, then the <abbr> element can be used. A title attribute on the opening tag is used to specify the full term.
+- **`<abbr>`** If you use an abbreviation or an acronym, then the `<abbr>` element can be used. A title attribute on the opening tag is used to specify the full term.
 
 ## auTHor deTails
 
-* **<adress>** The <address> element has quite a specific use: to contain contact details for the author of the page.
+- **`<adress>`** The `<address>` element has quite a specific use: to contain contact details for the author of the page.
 
 
 # Understanding Css:
 
-*The key to understanding how CSS works is to imagine that there is an invisible box around every HTML element*
-*CSS allows you to create rules that control the way that each individual box (and the contents of that box) is presented.*
+* The key to understanding how CSS works is to imagine that there is an invisible box around every HTML element 
+* CSS allows you to create rules that control the way that each individual box (and the contents of that box) is presented. 
 
 ## using external css
 
-* **<link>** 
-The <link> element can be used in an HTML document to tell the browser where to find the CSS file used to style the page. It is an empty element (meaning it does not need a closing tag), and it lives inside the <head> element. It should use three attributes:
-**herf**: href This specifies the path to the CSS file (which is often placed in a folder called css or styles).
-**type**:This attribute specifies the type of document being linked to. The value should be text/css.
-**ref**:This specifies the relationship between the HTML page and the file it is linked to. The value should be stylesheet when linking to a CSS file.
+- **`<link>`** 
+The `<link>` element can be used in an HTML document to tell the browser where to find the CSS file used to style the page. It is an empty element (meaning it does not need a closing tag), and it lives inside the `<head>` element. It should use three attributes:
+**`herf`**: href This specifies the path to the CSS file (which is often placed in a folder called css or styles).
+**`type`**:This attribute specifies the type of document being linked to. The value should be text/css.
+**`ref`**:This specifies the relationship between the HTML page and the file it is linked to. The value should be stylesheet when linking to a CSS file.
 
 ## using the enternal css:
 
-* **<style>**
-You can also include CSS rules within an HTML page by placing them inside a <style> element, which usually sits inside the <head> element of the page. 
-The <style> element should use the type attribute to indicate that the styles are specified in CSS. The value should be text/ css.
+- **`<style>`**
+You can also include CSS rules within an HTML page by placing them inside a `<style>` element, which usually sits inside the `<head>` element of the page. 
+The `<style>` element should use the type attribute to indicate that the styles are specified in CSS. The value should be text/ css.
 
 ## How Css rules cascade
 
