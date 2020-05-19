@@ -30,7 +30,7 @@ Form controls live inside a <form> element. This element should always carry the
 Forms can be sent using one of two methods: get or post.
 ## Text input :
 
-The <input> element is used to create several different form controls. The value of the type attribute determines what kind of input they will be creating.
+The `<input>` element is used to create several different form controls. The value of the type attribute determines what kind of input they will be creating.
 
 * `type="text"` :
 
