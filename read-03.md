@@ -23,3 +23,9 @@ This establishes the main-axis, thus defining the direction flex items are place
 * column: same as row but top to bottom
 * column-reverse: same as row-reverse but bottom to top
 
+`flex-wrap`
+By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.
+`.container {`
+`  flex-wrap: nowrap | wrap | wrap-reverse;`
+`}`
+
