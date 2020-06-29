@@ -29,3 +29,7 @@ By default, flex items will all try to fit onto one line. You can change that an
 `  flex-wrap: nowrap | wrap | wrap-reverse;`
 `}`
 
+* nowrap (default): all flex items will be on one line
+* wrap: flex items will wrap onto multiple lines, from top to bottom.
+* wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
+
